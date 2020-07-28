@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/img/Logo.png'
 import './Menu.css'
-import ButtonLink from './components/ButtonLink';
+//import ButtonLink from './components/ButtonLink';
+import Button from '../Button';
 
 function Menu() {
     return (
@@ -9,9 +10,9 @@ function Menu() {
             <a href="/">
                 <img className="Logo" src={Logo} alt="ThecFlix"/>
             </a>
-            <ButtonLink className="ButtonLink" href="/">
+            <Button as="a" className="ButtonLink" href="/">
                 Props Especifica chamada children
-            </ButtonLink>
+            </Button>
         </nav>
     );
 }
