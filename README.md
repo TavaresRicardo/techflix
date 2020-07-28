@@ -6,6 +6,16 @@ Projeto feito durante a Imersão React da Alura
 # Logo
 Você pode gerar o seu próprio logo no site: https://fontmeme.com/netflix-font/
 
+
+## Como rodar o projeto?
+
+Após baixar o projeto, acesse ele via seu terminal rode os comandos:
+
+```sh
+npm install
+npm start
+```
+
 > Starts the development server.
 ```shell script
   npm start
