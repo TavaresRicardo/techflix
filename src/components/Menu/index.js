@@ -11,7 +11,7 @@ function Menu() {
                 <img className="Logo" src={Logo} alt="ThecFlix"/>
             </a>
             <Button as="a" className="ButtonLink" href="/">
-                Props Especifica chamada children
+                Menu
             </Button>
         </nav>
     );
