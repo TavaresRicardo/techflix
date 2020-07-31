@@ -11,8 +11,8 @@ import {
 } from 'react-router-dom';
 
 import Home from './pages/Home';
-import CadastroVideo from './pages/cadastro/video';
-import CadastroCategoria from './components/Categoria';
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
 
 
 
